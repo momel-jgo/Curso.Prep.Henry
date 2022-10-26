@@ -1,0 +1,108 @@
+body{
+    display: flex;
+    background-image:url(ensayo-dos.jpg) ; 
+    text-align: center;
+    
+}
+
+h1 {
+    background: linear-gradient(rgb(237, 6, 6),rgb(243, 235, 5),rgb(238, 59, 4),rgb(249, 82, 5));
+            -webkit-background-clip: text;
+            -webkit-text-stroke: 1px rgb(7, 8, 8);
+            text-shadow: 0 0 90px rgb(211, 246, 9);
+            color: transparent;
+            font-size: 100px;
+            font-family: Brush Script MT ;
+    margin-bottom: 80px;
+    margin-left: 150px;
+    font-weight: 800;
+    text-transform: uppercase;
+    
+}
+h3{
+    color: rgb(207, 247, 6);
+    -webkit-text-stroke: 3px rgb(7, 8, 8);
+    text-shadow: 0 0 90px rgb(218, 246, 9);
+    margin-bottom: 80px;
+    margin-left: 150px;
+    font-size: 100px;
+}
+
+h4{
+    color: rgb(11, 12, 12);
+    margin-bottom: 80px;
+    margin-left: 150px;
+    font-size: 50px;
+}
+
+#spanId{ 
+    
+    font-size: 30px;
+    margin: 10px;
+    margin-left: 20px;
+    
+}
+#spanId{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(ahora-carbon.jpg);
+    height: 30vh !important;
+    background-size: cover;
+    padding: 10px 10px ;
+    color: aliceblue;
+    
+}
+
+.style-sancocho{
+    display: block;
+    color: rgb(214, 250, 8);
+    margin-left: 600px;
+    background-image:url(ahora-carbon.jpg);
+    left: 100px;
+    width: 600px; 
+    border: 2px rgb(8, 8, 8) solid;
+    font-size: 50px;
+    
+}
+
+.style-carne{
+    display: block;
+    color: rgb(248, 220, 6);
+    margin-bottom: 5px;
+    margin-left: 300px ;
+    background-image:url(ahora-carbon.jpg);
+    left: 100px;
+    width: 600px;
+    border: 2px rgb(12, 12, 12) solid;
+    font-size: 50px;
+    
+}
+.imagen-carne{
+    display: block;
+    color: rgb(248, 220, 6);
+    margin-bottom: -4px;
+    margin-left: 100px ;
+    background-image:url(ahora-carbon.jpg);
+    left: 600px;
+    width: 600px;
+    border: 2px rgb(14, 14, 14) solid;
+
+
+}
+
+.imagen-sancocho{
+    display: block;
+    color: rgb(248, 220, 6);
+    margin-bottom: -4px;
+    margin-left: 100px ;
+    background-image:url(ahora-carbon.jpg);
+    left: 600px;
+    width: 600px;
+    border: 2px rgb(12, 11, 11) solid;
+
+}
+
+
+
+
