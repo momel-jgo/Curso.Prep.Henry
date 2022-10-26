@@ -104,3 +104,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+#imagenes local
+.imagenes-cv
+
+#imagenes local 
+.imagenes-homework
