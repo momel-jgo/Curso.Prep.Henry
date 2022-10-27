@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    background-color: rgb(91, 89, 89);
+    
+}
+h1{
+    font-size: 50px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+div{
+    display: block;
+    background-color: rgb(246, 240, 241);
+    border: 8px double rgb(145, 142, 143);
+    padding: 10px;
+    width: 60% ;
+    margin: 0 auto;   
+}
+
+fieldset{
+    background-color: rgb(251, 228, 239);
+    border: 5px dotted rgb(251, 210, 249);
+    margin-bottom: 20px; 
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+legend{
+    background-color: rgb(249, 240, 229);
+    padding: 5px;
+    border-radius: 50px;
+    border: 5px solid rgb(127, 109, 118);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+li{
+   text-align:justify;
+   margin-bottom: auto;
+   font-family: sans-serif;
+   font-size: 20px;
+}
+
+img{
+    display: flow-root;
+    padding: 30px;
+    border-radius:70%;
+    width: 220px;
+    margin: 0 auto;
+    float: left;
+    
+}
+span{
+    font-weight: bold;
+}
