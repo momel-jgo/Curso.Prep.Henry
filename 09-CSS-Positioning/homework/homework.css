@@ -2,37 +2,168 @@
 Lección 3: Tarea de posicionamiento con CSS. Todo el trabajo debe hacerse en este archivo, por lo que si estás tocando cualquier otro
 archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 */
+body{
+    background: linear-gradient(to right, rgb(182, 180, 180), rgb(244, 243, 245), rgb(244, 243, 245),rgb(171, 170, 170));
+    color: black;
+    text-align: left;
+    display: flexbox;
+    font-size: 20px;
+
+}
+#header{
+    background: -webkit-linear-gradient(rgb(82, 150, 233),rgb(13, 13, 11),rgb(9, 9, 9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color:transparent;
+    
+}
+span{
+      display: block;
+      text-align:left;
+      color: black;
+}
+h3{
+   font-family: cursive;
+   font-size: 25px;
+   color: rgb(55, 18, 3);
+}
 
 /* Ejercicio 1: Centrar el texto en un span */
+#instructions{
+      display: flex;
+      text-align: left;
+      font-size: 20px;
+}
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+      display: flex;
+      text-align:left;
+      font-size: 20px;
+         
 }
-
 
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
-
-
+#ejercicioDos{
+    display:block;
+    border-color: transparent;
+    font-size: 20px;
+}
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
 
+#ejercicioTres{
+        display: flex;
+        padding-top:100px;
+        padding-left:200px;
+}
+#containerImagen{
+    display: block;
+    background-color: rgb(221, 182, 172);
+    border: 10px double rgb(87, 52, 33);
+}
+#spanDescriptivo{
+    display: flex;
+    text-align: justify;
+    border: 5px dashed rgb(110, 50, 18);
+    padding: 5px;
+    font-family: monospace;
 
+}
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
 
-
+#ejercicioCuatro{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+         
+}
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
 
-
+#ejercicioCinco{
+    display:flex;
+    padding: 5px;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse; 
+    align-items: center;
+     
+}
+#ejercicioCinco img{
+    width: 200px;
+}
 
 /* Ejercicio 6. */
+
+#ejercicioSiete{
+    display:flex;
+    border: 25px outset rgb(109, 5, 54);
+    background-color: rgb(249, 226, 251);
+    padding: 5px;
+    justify-content: center; 
+    flex-wrap: wrap;
+    flex-direction: row; 
+    align-items: center;
+}
+#ejercicioSiete div{
+    background-color: rgb(224, 200, 249);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 5px double rgb(40, 3, 63);
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin: 5px;
+}
+#img-baby{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 130px;
+        margin: 10px;
+}
+#img-niña{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 130px;
+        margin: 10px;
+}
+#img-adolencente{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 115px;
+        margin: 15px;
+
+}
+#img-es-adulta{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 120px;
+        margin: 15px;
+}
+
+
+
